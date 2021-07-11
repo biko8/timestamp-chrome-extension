@@ -1,9 +1,21 @@
 {
-  "name": "Timestamp conversor",
+  "name": "Timestamp Conversor",
   "version": "1.0",
   "description": "Basic timestamp conversor including objectid to date",
-  "browser_action": {
-    "default_popup": "popup.html"
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/clock.png",
+      "32": "images/clock.png",
+      "48": "images/clock.png",
+      "128": "images/clock.png"
+    }
   },
-  "manifest_version": 2
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/clock.png",
+    "32": "images/clock.png",
+    "48": "images/clock.png",
+    "128": "images/clock.png"
+  }
 }
