@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      padding: 5px;
+    }
+    .container {
+      width: 240px;
+      height: 220px;
+    }
+    input {
+      width: 200px;
+      margin-bottom: 5px;
+      float: left;
+      margin-right: 5px;
+    }
+    button {
+      float: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <input type="text" id="timestamp" placeholder="Timestamp" /> <button id="fromTimestampToDate">></button>
+    <input type="text" id="resultTimeStampId" placeholder="Result" />  <button id="fromStrToTimestamp"><</button>
+
+    <input type="text" id="objectid" placeholder="ObjectId" /> <button id="fromObjectToDate">></button>
+    <input type="text" id="resultObjectId" placeholder="Result" />
+
+    <p>
+      <button id="placeNow">Now</button>
+      <button id="clearInputs">Clear</button>
+    </p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
